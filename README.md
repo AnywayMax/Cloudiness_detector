@@ -1,8 +1,8 @@
 # Cloudiness Detector
-Cloudiness detector for Raspberry Pi Zero on your mini‑satellite. 
+_Cloudiness detector for Raspberry Pi Zero on your mini‑satellite._
 Снимает кадр с камеры, анализирует яркость и выдаёт процент облачности.
 
-Простой детектор облачности:
+**Простой детектор облачности:**
 
 – Вместо тяжёлых фотографий скрипт на Python (Pillow или OpenCV) анализирует кадр и считает долю белых пикселей – то есть процент облачности.
 – По 1 кбит/с вы шлёте не мегабайты, а одно число: «облачность 73 %».
